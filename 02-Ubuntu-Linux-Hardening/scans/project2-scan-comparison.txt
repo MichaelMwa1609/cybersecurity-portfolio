@@ -1,0 +1,15 @@
+--- /home/michael/project2-baseline-scan.txt	2026-10-09 11:58:36.893936247 +0200
++++ /home/michael/project2-final-scan.txt	2026-10-09 12:19:12.685454475 +0200
+@@ -1,9 +1,9 @@
+-# Nmap 7.99 scan initiated Fri Oct  9 11:58:11 2026 as: /usr/lib/nmap/nmap --privileged -sV -oN project2-baseline-scan.txt 192.168.56.102
++# Nmap 7.99 scan initiated Fri Oct  9 12:18:48 2026 as: /usr/lib/nmap/nmap --privileged -sV -oN project2-final-scan.txt 192.168.56.102
+ Nmap scan report for 192.168.56.102
+-Host is up (0.00042s latency).
++Host is up (0.00068s latency).
+ All 1000 scanned ports on 192.168.56.102 are in ignored states.
+ Not shown: 1000 filtered tcp ports (no-response)
+ MAC Address: 08:00:27:19:7E:1D (Oracle VirtualBox virtual NIC)
+ 
+ Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+-# Nmap done at Fri Oct  9 11:58:36 2026 -- 1 IP address (1 host up) scanned in 24.92 seconds
++# Nmap done at Fri Oct  9 12:19:12 2026 -- 1 IP address (1 host up) scanned in 24.23 seconds

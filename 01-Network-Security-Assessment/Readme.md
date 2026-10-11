@@ -1,3 +1,4 @@
+
 ## Nmap Findings
 
 ### Basic Scan
@@ -55,3 +56,5 @@ The following screenshots document the assessment:
 The assessment confirmed that the Ubuntu VM was reachable from Kali Linux over the Host-Only network. The Nmap scans found no open TCP ports among the default 1,000 ports scanned, and no exposed services requiring remediation were identified.
 
 This assessment demonstrated the basic process of host discovery, port scanning, service detection, security assessment, and verification.
+
+
