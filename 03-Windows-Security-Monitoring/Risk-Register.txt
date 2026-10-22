@@ -1,0 +1,48 @@
+# Windows Security Monitoring — Risk Register
+
+Project: 03-Windows-Security-Monitoring
+Assessment date: 22 October 2026
+Environment: Windows Server 2025 Standard Evaluation lab
+
+## Risk 1 — Account Authentication Failures
+
+Description: Multiple failed-logon events were observed in the Windows Security log. The events have different dates and failure reasons, so they must be investigated individually.
+
+Threat: Unauthorised access attempts
+Potential vulnerability: Weak credentials, expired passwords, or account configuration issues
+Likelihood: Medium — preliminary estimate; reassess after further investigation
+Impact: Medium — unauthorised access could expose the lab system
+Risk level: Medium — preliminary estimate
+Existing evidence: Windows Security Event ID 4625 screenshots
+Recommended treatment: Review failed-logon events, confirm account status, and investigate repeated failures.
+Status: Open — further investigation required
+
+## Risk 2 — Inadequate Evidence Handling
+
+Description: Investigation evidence could become unreliable if screenshots or logs are changed without documentation.
+
+Threat: Accidental or unauthorised modification of evidence
+Vulnerability: Missing or incomplete evidence-handling records
+Likelihood: Low — preliminary estimate
+Impact: Medium — altered evidence could reduce investigation reliability
+Risk level: Low — preliminary estimate
+Existing control: Evidence inventory and chain-of-custody notes
+Recommended treatment: Preserve original evidence and document all access and transfers.
+Status: Open — maintain evidence-handling controls
+
+## Risk 3 — Insufficient Account Monitoring
+
+Description: Authentication failures may go unnoticed if Security logs are not reviewed regularly.
+
+Threat: Unauthorised access attempts
+Vulnerability: Infrequent log review or inadequate monitoring
+Likelihood: Medium — preliminary estimate
+Impact: Medium — suspicious activity could be missed
+Risk level: Medium — preliminary estimate
+Existing control: Windows Event Viewer Security log
+Recommended treatment: Review authentication events regularly and investigate unusual patterns.
+Status: Open — monitoring improvement recommended
+
+## Assessment Notes
+
+Risk ratings are preliminary lab estimates, not confirmed findings of an attack. Reassess likelihood and impact when additional evidence becomes available. No malicious activity has been confirmed by the observations recorded here.

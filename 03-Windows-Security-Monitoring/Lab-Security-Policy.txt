@@ -1,0 +1,59 @@
+# Windows Security Monitoring Lab Security Policy
+
+**Project:** 03-Windows-Security-Monitoring  
+**Effective date:** 22 October 2026  
+**Environment:** Windows Server 2025 Standard Evaluation lab
+
+## 1. Purpose
+
+This policy establishes basic security requirements for accessing, monitoring and documenting the Windows security lab.
+
+## 2. Scope
+
+This policy applies to the Windows Server lab VM, its test accounts, Windows Security logs, investigation evidence and project files.
+
+## 3. Authorised Use
+
+- Use the lab only for authorised learning and testing.
+- Perform security testing only on systems owned by the user or where explicit permission has been granted.
+- Do not use lab accounts to access systems without authorisation.
+
+## 4. Account Security
+
+- Use strong, unique passwords for lab accounts.
+- Use a standard account for ordinary tasks where practical.
+- Restrict administrative access to authorised users.
+- Review account-related security events when investigating authentication problems.
+
+## 5. Logging and Monitoring
+
+- Use Windows Event Viewer to review relevant Security log events.
+- Record event IDs, timestamps, account details and other relevant information when investigating events.
+- Investigate unusual activity before concluding that an attack has occurred.
+- Preserve relevant logs and screenshots for investigation.
+
+## 6. Evidence Handling
+
+- Keep original evidence files unchanged.
+- Store project evidence in the designated project folders.
+- Maintain an evidence inventory.
+- Document evidence access and transfers when they occur.
+- Do not claim that evidence proves malicious activity unless the investigation supports that conclusion.
+
+## 7. Incident Reporting
+
+- Record the observed event and supporting evidence.
+- Assess potential risks and their impact.
+- Document appropriate containment and recovery actions when needed.
+- Record recommendations and lessons learned.
+- Use actual timestamps and findings in incident reports.
+
+## 8. Review and Compliance
+
+- Follow this policy during lab activities.
+- Review the policy when lab procedures or security requirements change.
+- Document any identified gaps and recommended improvements.
+
+## 9. Limitations
+
+This is a basic educational lab policy. It is not a formal organisational policy or a certification of regulatory compliance.

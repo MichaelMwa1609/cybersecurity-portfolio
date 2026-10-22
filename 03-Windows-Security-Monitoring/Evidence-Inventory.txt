@@ -1,0 +1,39 @@
+# Digital Forensics — Evidence Inventory
+
+Project: Windows Security Monitoring
+Evidence location: 03-Windows-Security-Monitoring/screenshots/
+Evidence reviewed: 9 screenshots
+Review date: 22 October 2026
+
+## Evidence Register
+
+E-01: 01-Project-Folder-Structure.png — Project folder structure
+E-02: 02-Event-Viewer-Opened.png — Event Viewer opened
+E-03: 03-Windows-Logs-Expanded.png — Windows Logs expanded
+E-04: 04-Security-Log-Opened.png — Security log opened
+E-05: 05-Failed-Logon-Events.png — Filtered failed-logon events
+E-06: 06-Failed-Logon-Event-Details.png — Failed-logon event details
+E-07: 07-Test-Account-Failure-Details.png — Test-account authentication failure
+E-08: 08-Expired-Password-Failure.png — Expired-password failure
+E-09: 09-Expired-Password-Event-Details.png — Expired-password event details
+
+## Evidence Handling Notes
+
+- Keep the original screenshots unchanged.
+- Record who collects or accesses evidence and when.
+- Record where evidence is stored and any transfers.
+- Failed logon events alone do not prove malicious activity.
+
+## Chain of Custody
+
+Evidence custodian: Lab analyst
+Evidence description: Nine Windows Security Monitoring screenshots
+Current storage location: 03-Windows-Security-Monitoring/screenshots/
+Evidence status: Retained in the project folder
+Transfer status: No transfer recorded
+
+Handling requirements:
+- Record the date and time of every evidence transfer.
+- Record the name or role of the person releasing and receiving evidence.
+- Document the reason for the transfer.
+- Verify that the evidence remains complete and unchanged.
